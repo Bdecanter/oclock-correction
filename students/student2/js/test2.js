@@ -20,4 +20,9 @@ else {
  */
 function isEven(int) {
   return (int % 2 === 0);
+
+  /*
+      Parfait, les parenthèses sont superflues
+      return int % 2 === 0;
+   */
 }

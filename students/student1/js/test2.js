@@ -28,4 +28,9 @@ function isEven(int) {
 
       return false;
    }
+
+   /*
+      Tu peut raccourcir ta syntax : return int % 2 === 0
+      Pense aussi à faire en sorte que ton code soit organisé pour améliorer sa lisibilité
+   */
 }

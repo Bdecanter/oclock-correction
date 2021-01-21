@@ -22,4 +22,8 @@ function isEven(int) {
      var int = int % 2 == 0;
 console.log(int);
 return int;
+  /*
+      Tu peut retourner directement ton calcul : return int % 2 === 0;
+      Pense à nettoyer tes logs
+   */
 }

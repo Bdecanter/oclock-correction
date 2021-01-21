@@ -26,10 +26,19 @@ else {
  */
 function getExtension(str) {
   var separator = '.';
+  // Définir ton extension dans une variable est utile si :
+  // Tu compte la réutiliser autre part
+  // Si tu gagne du temps quand tu l'utilise
+  // var getExtension = str.split("."); 
   var getExtension = str.split(separator);
+
+  // Plus simple de retourner la derniere valeur de ton array directement
+  // Tu alourdi ton code + création d'un nouvelle array... (shallow copy)
   var extension = getExtension.slice(-1)[0];
   
   if (getExtension.length === 1) return false;
   
+  // Retourne directement ton extension en utilisant l'index - 1
+  // return getExtension[getExtension.length - 1];
   return extension;
 }

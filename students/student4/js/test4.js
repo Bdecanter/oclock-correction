@@ -24,5 +24,6 @@ else {
  * Retourner la chaine la plus longue de l'array
  */
 function getLongestString(arr) {
-
+  // Rien ? Rohhhhhhhh
+  // Essaie d'ecrire une function, je reviens vers toi meme si tu as un point de blocage.
 }

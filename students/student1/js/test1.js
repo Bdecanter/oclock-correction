@@ -26,4 +26,12 @@ function doubleInt(int) {
 
    var rep = int * 2;
    return rep;
+
+  /*
+    Tu obtient le resultat attendu
+    Mais tu peut raccourcir la syntax :
+    
+    return int * 2;
+  */
+  
 }

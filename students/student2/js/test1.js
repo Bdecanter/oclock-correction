@@ -24,4 +24,9 @@ else {
  */
 function doubleInt(int) {
   return int * 2;
+
+  /*
+    Tu obtient le resultat attendu
+    Parfait !
+  */
 }

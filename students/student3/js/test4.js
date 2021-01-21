@@ -38,4 +38,28 @@ if (nom !==null) {
 }else {
     return false;
 }
+
+  /*
+    Essaye de maintenir un code propre (tabulation, espace, ...)
+    tu devrai d'adord renvoyer false si le array est vide
+
+    ensuite parcourir ton array (regarde 'for of' || 'for in')
+    Tu verifie si c'est une string, et si sa longueur est sup tu stock dans une var global
+    tu retourne la var global
+  */
+
+  /*
+    var result = '';
+    if (arr.length === 0) return false;
+
+    for(var res of arr) {
+      if(typeof res === 'string') {
+          if(result.length < res.length) {
+            result = res;
+          }
+      }
+    }
+    return result;
+  */
+
 }

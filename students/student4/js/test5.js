@@ -24,5 +24,5 @@ else {
  * Retourner la somme des nombres contenus dans cet array
  */
 function sum(arr) {
-
+  // Essaie d'ecrire une function, je reviens vers toi meme si tu as un point de blocage.
 }

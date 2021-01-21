@@ -29,3 +29,11 @@ function doubleInt(int) {
     return int;
 }
  console.log(doubleInt());
+
+ /*
+    Tu obtient le resultat attendu
+    Tu peut simplifier ta syntax : return int * 2;
+
+    et pense à nettoyer ton code, notamment tes logs
+
+  */

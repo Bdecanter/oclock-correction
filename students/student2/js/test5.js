@@ -34,6 +34,9 @@ function flatten(arr) {
   return arr;
 } 
 
+// Le nom du challenge doit vous parler... Inception
+// On creer une function qui additionent les valeurs d'un array.
+// Si on trouve un array dans un array (Inception :)), pourquoi ne pas utiliser la meme function ?
 function sum(arr) {
   var total = 0;
   var arr = flatten(arr);
@@ -46,3 +49,20 @@ function sum(arr) {
   
   return total;
 }
+
+// Correction :
+
+// function sum(arr) {
+//    var resultat = 0
+//    if (arr.length === 0) return resultat;
+
+//    for(var entry of arr) {
+//       if(typeof entry === 'number') {
+//          resultat += entry;
+//       }
+//       else if(typeof entry === 'object') {
+//          resultat += sum(entry)
+//       }
+//    }
+//    return resultat
+// }

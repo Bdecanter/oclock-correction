@@ -25,6 +25,7 @@ else {
  * Par exemple index.html => html
  */
 function getExtension(str) {
+
 for (var i=str.length; i>=0; i--){
     if (str[i]=="."){
         var j= str.slice(i+1,str.length);
@@ -33,4 +34,14 @@ for (var i=str.length; i>=0; i--){
     }
 }
 return false;
+
+// Ca fonctionne mais tu te complique la vie
+// Tu devrait utiliser la function split
+// array = string.split(caractere)
+
+/*
+  Tu split par le caractere lié a l'extension "."
+  Tu verifie si le array a la longueur suffisante (a t'il été split ?)
+  Et tu retourne le dernier elements de ton array
+*/
 }

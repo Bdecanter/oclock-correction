@@ -24,4 +24,10 @@ if (int%2==0) {
 }else{
     return false
 }
+
+  /*
+      Tu peut raccourcir ta syntax : return int % 2 === 0
+      Pense aussi à faire en sorte que ton code soit organisé pour améliorer sa lisibilité
+      Tabulation et espace a revoir
+   */
 }

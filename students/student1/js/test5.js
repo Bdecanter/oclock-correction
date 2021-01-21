@@ -34,15 +34,36 @@ function sum(arr) {
 
    for (var i = 0; i < arr.length; i++) {
 
+      // Tu ignore les valeur qui ne sont pas des nombres, mais tu as des array de nombre à traiter (objets).
+      // Regarde bien le nom du challenge... il est explicite :)
+
       if (isNaN(arr[i])) {
          console.log("valeur ignorée :"+arr[i]);
          i++;
       }
       if (!isNaN(arr[i])) {
-
+         // tip : pour ajouter une valeur a une variable
+         // peut s'ecrire result += arr[i]
          result = result + arr[i];
       }
    }
    console.log("resultat renvoyée : "+result);
    return result;
 }
+
+// Correction :
+
+// function sum(arr) {
+//    var resultat = 0
+//    if (arr.length === 0) return resultat;
+
+//    for(var entry of arr) {
+//       if(typeof entry === 'number') {
+//          resultat += entry;
+//       }
+//       else if(typeof entry === 'object') {
+//          resultat += sum(entry)
+//       }
+//    }
+//    return resultat
+// }

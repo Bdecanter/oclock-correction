@@ -24,4 +24,14 @@ else {
  */
 function doubleInt(int) {
 return int*2;
+  /*
+    Tu obtient le resultat attendu
+    Parfait !
+    Pense a indenter ton code pour une meilleur visibilité
+
+    function doubleInt(int) {
+      return int*2;
+    }
+
+  */
 }
